@@ -1,0 +1,141 @@
+/* 全般設定 */
+body {color:black; background:white; margin:0; padding:0;}
+
+table {width:100%; font-size:12px; border-collapse:collapse;}
+table td {padding:0; vertical-align:top;}
+
+/* 全般的なリンクの設定 */
+a {color:#000066; text-decoration:underline;}
+a:hover {color:#ff6600;}
+a:visited {color:#333399;}
+
+/* 一般タグの設定 */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* リスト表示の設定 中央左右のブロックなどで使用 */
+ul {margin:2px; padding:2px; list-style:decimal inside; text-align:left;}
+li {margin-left:2px; list-style:square inside; color:#2F5376}
+
+input.formButton {}
+
+/* 最新ニュースの枠 */
+.item {border:1px solid #cccccc;}
+/* 最新ニュースのタイトルバー */
+.itemHead {padding:3px; background:#C2CDD6; color:#666666;}
+/* 最新ニュースの投稿情報欄 */
+.itemInfo {text-align:right; padding:3px; background:#efefef;}
+/* 最新ニュースのタイトルの設定 */
+.itemTitle a {font-size:120%; font-weight:bold;}
+/* 最新ニュースの投稿者 */
+.itemPoster {font-size:90%;}
+/* 最新ニュースの投稿日 */
+.itemPostDate {font-size:90%;}
+/* 最新ニュースのステータス */
+.itemStats {font-size:90%;}
+/* 最新ニュースのコンテンツ部分 */
+.itemBody {padding:10px;}
+.itemText {margin-top:5px; margin-bottom:5px; line-height:150%;}
+/* 最新ニュースの1文字目 */
+.itemText:first-letter {}
+/* 最新ニュースのフッター */
+.itemFoot {text-align:right; padding:3px; background:#ececec;}
+.itemAdminLink {font-size:90%;}
+.itemPermaLink {font-size:90%;}
+
+th {background: #2F5376; color:#FFFFFF; padding:2px; vertical-align:middle;}
+
+#Frame {width:780px; margin:0 auto; border:1px solid #999999;}
+
+/*ヘッダーブロックの定義*/
+#headerl {width:250px; background:#CC0000; vertical-align:middle; text-align:left; padding:5px; border-top:2px solid #333333;}
+#headerr {background:#CC0000; vertical-align:middle; text-align:right; color:#FFFFFF; line-height:130%; border-top:2px solid #333333;}
+#headerr a{color:#FFFFFF;}
+#headerr a:hover{color:#FFFFFF; text-decoration:underline;}
+
+#headerbar {border-bottom:1px solid #000000; border-top:1px solid #666666; background:#333333; text-align:left; padding:3px; color:#FFFFFF;}
+#headerbar a{color:#FFFFFF; font-size:11px; text-decoration:none;}
+#headerbar a:hover{color:#FFFFFF; font-size:11px; text-decoration:underline;}
+
+/*左ブロックの定義*/
+#leftcolumn {width:185px; border-left:1px solid #999999;}
+#leftcolumn .blockTitle {padding:3px; color:#222222; font-weight:bold; margin: 5px 2px 5px 10px;}
+#leftcolumn .blockContent {padding:3px; padding-bottom:10px; margin-left:10px; border-bottom:1px solid #CCCCCC; line-height:130%;}
+
+/* 左ブロック　メインメニューの定義*/
+#mainmenu a {padding:4px;}
+#mainmenu a:hover {background:#ffffff;}
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {padding-left:12px;}
+
+/*左ブロック　ユーザーメニューの定義*/
+#usermenu a {padding:4px;}
+#usermenu a:hover {background:#ffffff;}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background:#ffcccc;}
+
+/*中央ブロックの定義*/
+#centercolumn {text-align:left;}
+#centercolumn th {background:#899DB8; color:#FFFFFF; vertical-align:middle; padding:5px;}
+
+/*中央-中央ブロックの定義*/
+#centerCcolumn {}
+#centerCcolumn .blockTitle {padding:5px; background:#DDDDDD; color:#000000; font-weight:bold;}
+#centerCcolumn .blockContent {padding:5px 5px 5px 10px; margin-bottom:5px; line-height:130%;}
+
+/*中央-左ブロックの定義*/
+#centerLcolumn {width:50%;}
+#centerLcolumn .blockTitle {padding:5px; background:#DDDDDD; color:#000000; font-weight:bold; margin-right:1px;}
+#centerLcolumn .blockContent {margin-right:1px; border-right:1px solid #cccccc; border-bottom:1px solid #dddddd; padding:5px; line-height:130%;}
+
+/*中央-右ブロックの定義*/
+#centerRcolumn {width:50%;}
+#centerRcolumn .blockTitle {padding:5px; background:#DDDDDD; color:#000000; font-weight:bold; margin-left:1px;}
+#centerRcolumn .blockContent {margin-left:1px; border-left:1px solid #cccccc; border-bottom:1px solid #dddddd; padding:5px; line-height:130%;}
+
+#content {text-align:left; padding:4px 8px;}
+
+#footer {text-align:center; font-size:11px; color:#666666; line-height:130%; line-height:180%; padding:5px;}
+
+/* フォーラムなどの外枠*/
+.outer {border:1px solid #DDDDDD;}
+/* フォーラムなどの投稿情報欄 */
+.head {background:#c2cdd6; padding:5px; font-weight:bold;}
+/* フォーラムなどの交互に色が変わる部分 */
+.even {background:#dee3e7; padding:5px;}
+.odd  {background:#E9E9E9; padding:5px;}
+tr.even td{background:#dee3e7; padding:5px;}
+tr.odd td {background:#E9E9E9; padding:5px;}
+/* フォーラムなどのフッター */
+.foot {background:#c2cdd6; padding:5px; font-weight:bold;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+/* Xoopsコードを記述する部分 */
+div.xoopsCode {background:#FFFFFF; border:1px inset #000080; padding: 0px 6px 6px 6px;}
+
+/* 引用部分の定義 */
+div.xoopsQuote {background:#FFFFFF; border:1px inset #000080; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight:bold; margin-bottom: 2px;}
+.comText {padding: 2px; line-height:160%;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.boite {font-size: 12px; padding:0px; border:2px solid #666666;}
+.boutonvert {background-color: #238e23; font-size: 10px; font-weight:bold; color: #ffffff; border:1px solid #cccccc; padding: 0px;}
+.boutonorange {background-color: #fe9f0f; font-size: 10px; font-weight:normal; color: #000000; border:1px solid #000000; padding: 0px;}
